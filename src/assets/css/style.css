@@ -7,6 +7,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+h2 {
+    margin: 0;
+}
 a {
     text-decoration: none;
 }
@@ -134,9 +137,121 @@ a {
     top: 100px;
     left: 150px;
 }
+
 .main__container-background-card {
     background-color: #EFEFEF;
 }
 .main__container-card {
     background-color: #EFEFEF;
+}
+.main__title {
+    padding-top: 80px;
+    padding-bottom: 35px;
+}
+
+.main__card {
+    padding: 25px;
+    background-color: #fff;
+    margin-right: 14px;
+    display: inline-block;
+    text-align: center;
+}
+.main__card-text {
+    color: #333333;
+}
+.main__card-prise p {
+    color: #000000;
+    font-size: 21px;
+    font-weight: normal;
+
+}
+.main__card-link a {
+    font-weight: bold;
+    padding: 10px 53px;
+    color: #FFFFFF;
+    background-color: #F13C6E;
+    border-radius: 40px;
+}
+.main__card-pink {
+    margin-top: 100px;
+    overflow: hidden;
+}
+.main__card-pink-gift, .main__card-pink-visit {
+    overflow: hidden;
+    margin-right: 16px;
+    width: 413px;
+    max-height: 200px;
+    padding: 35px;
+    background-color: #F13C6E;
+}
+
+.main__card-pink-gift {
+    float: left;
+    
+}
+.main__card-pink-gift-container {
+    float: left;
+    max-width: 200px;
+}
+.main__card-pink-gift-title {
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.main__card-pink-gift-text {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.main__card-pink-gift-input input {
+    margin-top: 5px;
+    padding:9px 45px 9px 25px;
+    border: none;
+    border-radius: 40px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:   #C4C4C4;  }
+
+.main__card-pink-gift-img {
+    float: right;
+}
+
+
+.main__card-pink-visit {
+    float: right;   
+}
+.main__card-pink-visit-container {
+    float: left;
+    max-width: 200px;
+}
+.main__card-pink-visit-title {
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.main__card-pink-visit-text {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.main__card-pink-visit-link {
+   margin: 21px 0;
+}
+.main__card-pink-visit-link a {
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 40px;
+    padding: 4px 59px 7px 59px;
+
+}
+.main__card-pink-visit-img {
+    margin-top: 20px;
+    float: right;
+}
+.main__logo-sheet {
+    margin-top: 100px;
+}
+.main__logo {
+    margin-right: -4.5px;
+    display: inline-block;
+    border: 0.4px solid #EFEFEF;
+    max-width: 149px;
+    padding: 20px 48px;
+    background-color: #FFFFFF;
 }
