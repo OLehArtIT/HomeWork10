@@ -14,6 +14,9 @@ h2 {
 a {
     text-decoration: none;
 }
+p {
+    margin: 0;
+}
 .container {
  background-color: rgb(255, 255, 255);
  width: 100%;
@@ -39,22 +42,38 @@ a {
     color: #333333;
     font-size: 14px;
 }
+.header__list li a:hover {
+    opacity: 0.7;
+}
 .header__logo-background {
     margin-top: 15px;
+    margin-bottom: 20px;
     overflow: hidden;
-    
 }
 .header__logo {
     float: left;
+}
+.header__logo-border {
+    border-bottom: 2px solid #EFEFEF;
 }
 .header__logo-contact, .header__logo-btn {
     float: right;
     position: relative;
 }
+.header__logo-btn button:hover {
+    opacity: 0.7;
+}
 .header__logo-contact {
-    top: 10px;
+    top: 27px;
     font-size: 16px;
 }
+.header__logo-contact a {
+    color: #000000;
+}
+.header__logo-contact a:hover {
+    opacity: 0.7;
+}
+
 .header__logo-btn {
     margin-left: 20px;
     top: 15px;
@@ -79,6 +98,9 @@ a {
 .header__menu-list li a {
     color: #000000;
 }
+.header__menu-list li a:hover {
+    opacity: 0.7;
+}
 
 
 .main__container-background {
@@ -100,6 +122,7 @@ a {
     color: #FFFFFF;
 }
 .main__content p {
+    padding: 14px 0;
     font-size: 14px;
     color: #FFFFFF;
 }
@@ -113,6 +136,9 @@ a {
     padding: 10px 40px;
     border: 2px solid #FFFFFF;
     border-radius: 40px;
+}
+.main__content-link a:hover {
+    opacity: 0.7;
 }
 .main__circle-transparent {
     position: relative;
@@ -143,8 +169,18 @@ a {
     background-color: #EFEFEF;
     
 }
+.main__container-card-all {
+    background-color: #EFEFEF;
+}
+.main__container-card-sheet {
+    background-color: #EFEFEF;
+    max-width: 1050px; 
+}
 .main__container-card {
     background-color: #EFEFEF;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 19px;
 }
 .main__title {
     padding-top: 80px;
@@ -152,9 +188,9 @@ a {
 }
 
 .main__card {
+    letter-spacing: normal;
     padding: 25px;
     background-color: #fff;
-    margin-right: 14px;
     display: inline-block;
     text-align: center;
 }
@@ -162,6 +198,7 @@ a {
     color: #333333;
 }
 .main__card-prise p {
+    padding: 14px 0;
     color: #000000;
     font-size: 21px;
     font-weight: normal;
@@ -174,13 +211,15 @@ a {
     background-color: #F13C6E;
     border-radius: 40px;
 }
+.main__card-link a:hover {
+    opacity: 0.7;
+}
 .main__card-pink {
     margin-top: 100px;
     overflow: hidden;
 }
 .main__card-pink-gift, .main__card-pink-visit {
     overflow: hidden;
-    margin-right: 16px;
     width: 413px;
     max-height: 200px;
     padding: 35px;
@@ -188,6 +227,11 @@ a {
 }
 .main__card-container {
     padding-bottom: 80px;
+    min-width: 1000px;
+    background-color: #EFEFEF;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 19px;
 }
 .main__card-pink-gift {
     float: left;
@@ -204,6 +248,9 @@ a {
 .main__card-pink-gift-text {
     font-size: 14px;
     color: #FFFFFF;
+}
+.main__card-pink-gift-text p {
+    padding: 14px 0;
 }
 .main__card-pink-gift-input input {
     margin-top: 5px;
@@ -234,6 +281,9 @@ a {
     font-size: 14px;
     color: #FFFFFF;
 }
+.main__card-pink-visit-text p {
+    padding: 7px 0;
+}
 .main__card-pink-visit-link {
    margin: 21px 0;
 }
@@ -242,53 +292,72 @@ a {
     color: #FFFFFF;
     border-radius: 40px;
     padding: 4px 59px 7px 59px;
-
+}
+.main__card-pink-visit-link a:hover {
+    opacity: 0.7;
 }
 .main__card-pink-visit-img {
     margin-top: 20px;
     float: right;
 }
 .main__logo-sheet {
+    letter-spacing: -.36em;
     margin-top: 100px;
+    text-align: center;
 }
 .main__logo {
-    margin-right: -4.5px;
+    letter-spacing: normal;
     display: inline-block;
     border: 0.4px solid #EFEFEF;
     max-width: 149px;
-    padding: 20px 48px;
+    padding: 20px 50px;
     background-color: #FFFFFF;
 }
 .footer__line-bottom {
     border-bottom: 2px solid #EFEFEF;
 }
+.footer__title-container {
+    white-space: nowrap;
+    letter-spacing: 41px;
+    margin-bottom: 40px;
+}
+.footer__title-list {
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+}
 
 .footer__title {
     overflow: hidden;
-    display: inline-block;
-    padding: 60px 138px 30px 0px;
-    margin-right: 30px;
+    padding: 60px 130px 30px 0px;
     border-bottom: 2px solid #EFEFEF;
 }
 .footer__title h2 {
+    letter-spacing: normal;
     font-size: 16px;
     float: left;
 }
+
 .footer__categories {
     padding-top: 20px;
+    white-space: nowrap;
     padding-bottom: 50px;
 }
 .footer__link {
-    display: inline-block;
-    padding-right: 163px;
+    letter-spacing: normal;
+    padding-right: 130px;
 }
 .footer__link a {
     display: block;
     padding-bottom: 10px;
     color: #828282;
 }
+.footer__link a:hover {
+    opacity: 0.7;
+}
 
 .footer__icons-contacts {
+    width: 100%;
     overflow: hidden;
     padding: 38px 0;
 }
@@ -299,6 +368,9 @@ a {
 .footer__icons-container {
     display: inline-block;
     margin-right: 15px;
+}
+.footer__icons-container a:hover {
+    opacity: 0.7;
 }
 
 .footer__contacts {
@@ -316,12 +388,21 @@ a {
     border-color: #F13C6E;
     background-color: white;
 }
+.footer__contacts-btn button:hover {
+    opacity: 0.7;
+}
 .footer__contacts-contact {
     position: relative;
-    top: -5px;
+    top: 10px;
     float: right;
     font-size: 16px;
     margin-right: 28px;
+}
+.footer__contacts-contact a {
+    color: #000000;
+}
+.footer__contacts-contact a:hover {
+    opacity: 0.7;
 }
 .footer__container-background-policy {
     background-color:  #EFEFEF;
@@ -332,6 +413,7 @@ a {
     background-color:  #EFEFEF; 
 }
 .footer__policy-text {
+    padding: 14px 0;
     float: left;
     color: #828282;
     font-size: 12px;
@@ -341,6 +423,10 @@ a {
     margin: 12px 0;
     float: right;
 }
+
 .footer__policy-link a {
     color: #828282;
+}
+.footer__policy-link a:hover {
+    opacity: 0.7;
 }
